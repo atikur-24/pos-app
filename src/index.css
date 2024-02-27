@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Inter", sans-serif;
+    }
+}
+
+@layer components {
+    /* custom containers */
+    .nav-container {
+        @apply container mx-auto px-8 md:px-12 lg:px-6;
+    }
+    .my-container {
+        @apply container mx-auto px-8 md:px-12 lg:px-6;
+    }
+    /* button style */
+    .add-btn {
+        @apply cursor-pointer rounded-md bg-deep-green px-3 py-2 text-sm font-medium uppercase tracking-wide text-white transition-all hover:opacity-90 lg:px-4 lg:py-2.5 lg:text-base lg:font-semibold;
+    }
+}
+
+@layer utilities {
+    .active {
+        @apply text-white transition-all duration-200 hover:text-white hover:opacity-100;
+    }
+
+    .default {
+        @apply opacity-70 transition-all duration-200 hover:text-white hover:opacity-100;
+    }
+}
+
+/* Remove increment and decrement arrows from number input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
