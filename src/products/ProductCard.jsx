@@ -15,7 +15,7 @@ const ProductCard = ({ product, updateCart }) => {
         <PiWarningOctagonBold className="absolute right-2 top-2 text-base text-red-600/90" />
       )}
       <div className="py-1 text-center md:py-1.5">
-        <p className="font-semibold">${price}</p>
+        <p className="font-semibold">${price.toFixed(2)}</p>
         <hr className="py-0.5" />
         <h2>{name}</h2>
       </div>

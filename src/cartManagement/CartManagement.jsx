@@ -2,6 +2,7 @@ import { useContext } from "react";
 import toast from "react-hot-toast";
 import { CartContext } from "../App";
 import { removeFromDb } from "../utils/FakeDB";
+import CartCalculation from "./CartCalculation";
 import CartTable from "./CartTable";
 import Profile from "./Profile";
 import TopMenu from "./TopMenu";
@@ -10,6 +11,7 @@ const CartManagement = () => {
   // get all carts
   const [carts, setCarts] = useContext(CartContext || []);
 
+  // item removed to shopping cart using local storage
   const handleRemoveToCart = (id) => {
     const remaining = carts.filter((item) => item.id !== id);
     setCarts(remaining);
@@ -19,9 +21,10 @@ const CartManagement = () => {
 
   return (
     <section className="space-y-3 border-r border-gray-300 px-2 lg:w-2/5 lg:px-4">
+      {/* left side top menu bar */}
       <TopMenu />
+      {/* left side profile and added customer */}
       <Profile />
-
       {/* show cart item with table */}
       <div className="overflow-x-auto">
         <table className="table">
@@ -37,6 +40,7 @@ const CartManagement = () => {
             </tr>
           </thead>
           <tbody>
+            {/* render table row to cart item */}
             {carts?.map((cart) => (
               <CartTable
                 key={cart.id}
@@ -48,7 +52,9 @@ const CartManagement = () => {
         </table>
       </div>
 
-      {/* <CartCalculation /> */}
+      {/* cart calculation part */}
+      <CartCalculation carts={carts} />
+      {/* checkout part */}
       {/* <Checkout /> */}
     </section>
   );

@@ -6,11 +6,11 @@ import ProductCard from "./ProductCard";
 import Search from "./Search";
 
 const Products = () => {
-  // get all products
+  // get all products and carts
   const products = useContext(ProductContext || []);
   const [carts, setCarts] = useContext(CartContext || []);
 
-  //   item add to shopping cart using local storage
+  // item add to shopping cart using local storage
   const handleAddToCart = (product) => {
     let newCart = [];
     const exists = carts.find((existingItem) => existingItem.id === product.id);
@@ -34,6 +34,7 @@ const Products = () => {
     <section className="bg-[#f4f6f8] lg:w-3/5">
       {/* search product */}
       <Search />
+      {/* render product card grid */}
       <div className="mx-2 grid grid-cols-2 gap-1 pt-2 md:grid-cols-3 md:gap-2 lg:mx-4 lg:grid-cols-4 lg:gap-3 xl:grid-cols-5">
         {products?.map((product) => (
           <ProductCard

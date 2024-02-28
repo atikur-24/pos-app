@@ -12,13 +12,13 @@ const CartTable = ({ cart, RemoveToCart }) => {
         <FiEdit className="cursor-pointer" />
       </td>
       <td>{name}</td>
-      <td className="text-right">${price}</td>
+      <td className="text-right">${price.toFixed(2)}</td>
       <td className="flex items-center justify-center gap-x-3">
         <FaMinusCircle className="text-lg" />
         <span>{quantity}</span>
         <FaPlusCircle className="text-lg" />
       </td>
-      <td className="text-right">${totalPrice}</td>
+      <td className="text-right">${totalPrice.toFixed(2)}</td>
       <td onClick={() => RemoveToCart(id)} className="flex justify-end p-0">
         <RiDeleteBin5Line className="cursor-pointer text-lg text-red-700/80" />
       </td>
