@@ -1,8 +1,26 @@
-# React + Vite
+# Simple E-commerce app (cart management)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## [POS Live Link](https://martvill-10d13.web.app/)
 
-Currently, two official plugins are available:
+### Functional Features and Design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Show all products
+- Each product showing the information, like user image, name etc.
+- When user click on the the product then product add to cart.
+- Implement a search functionality by product name.
+- Cart item quantity increase or decrease
+- Delete Item from cart or clear all item form cart
+- Update realtime calculation base on cart item amount
+- I will try design looking eye catching.
+- In this app fully responsive for mobile, tablet and desktop devices.
+
+### Wrote the code
+
+- Component based design and create to re-useable component
+- Used useState and useContext hooks.
+- Used custom hook.
+- Use React Router for routing.
+
+### Used Technologist & Packages
+
+- The website was built for client-side HTML5, CSS3, Tailwind, JavaScript, React.js.Using some packages are React router dom, React hot toast and React icons etc.

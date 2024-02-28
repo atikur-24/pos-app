@@ -31,7 +31,7 @@ const Category = () => {
           Women Fashion
         </div>
         <div>
-          <PiDotsThreeOutlineVerticalFill className="text-2xl" />
+          <PiDotsThreeOutlineVerticalFill className="cursor-pointer text-2xl" />
         </div>
       </div>
     </>

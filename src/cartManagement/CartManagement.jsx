@@ -62,6 +62,7 @@ const CartManagement = () => {
                 <CartTable
                   key={cart.id}
                   cart={cart}
+                  setCarts={setCarts}
                   RemoveToCart={handleRemoveToCart}
                 />
               ))}

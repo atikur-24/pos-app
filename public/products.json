@@ -1,7 +1,7 @@
 [
   {
     "id": "asdf1df3",
-    "name": "Pure White Polo",
+    "name": "Pure White Shirt",
     "image": "products/menshirt-1.jpg",
     "price": 70,
     "shipping": 10,
@@ -12,7 +12,7 @@
   },
   {
     "id": "asdf1dh7",
-    "name": "Pure White Polo",
+    "name": "Gray T-shirt",
     "image": "products/menshirt-2.jpg",
     "price": 90,
     "shipping": 15,
@@ -23,18 +23,18 @@
   },
   {
     "id": "asdf1dt1",
-    "name": "Pure White Polo",
+    "name": "Woman Korean Thick Autumn",
     "image": "products/menshirt-3.webp",
     "price": 45,
     "shipping": 17,
     "tax": 2.25,
-    "stock": 0,
+    "stock": 20,
     "category": "clothes",
     "desc": "This product also good"
   },
   {
     "id": "asdf1dq6",
-    "name": "Rolex",
+    "name": "LED Watch",
     "image": "products/watch-1.jpg",
     "price": 85,
     "shipping": 12,
@@ -45,7 +45,7 @@
   },
   {
     "id": "asdf1dw4",
-    "name": "Casio",
+    "name": "Apple Watch Series 4",
     "image": "products/watch-2.jpg",
     "price": 62,
     "shipping": 14,
@@ -56,7 +56,7 @@
   },
   {
     "id": "asdf1de8",
-    "name": "Pure White Polo",
+    "name": "Women Solid Short Hoodie",
     "image": "products/womencls-1.webp",
     "price": 60,
     "shipping": 20,
@@ -67,7 +67,7 @@
   },
   {
     "id": "asdf1dv2",
-    "name": "Pure White Polo",
+    "name": "iPhone 11 pro",
     "image": "products/phone-1.jpg",
     "price": 95,
     "shipping": 24,
@@ -78,7 +78,7 @@
   },
   {
     "id": "asdf1as36",
-    "name": "Pure White Polo",
+    "name": "Red T-Shirt Print Men",
     "image": "products/babay-tshirt.webp",
     "price": 70,
     "shipping": 12,

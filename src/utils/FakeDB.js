@@ -20,6 +20,16 @@ const removeFromDb = (id) => {
   }
 };
 
+const decreaseQuantity = (id) => {
+  const shoppingCart = getShoppingCart();
+  const quantity = shoppingCart[id];
+  if (quantity && quantity > 1) {
+    const newQuantity = quantity - 1;
+    shoppingCart[id] = newQuantity;
+    localStorage.setItem("shopping-cart", JSON.stringify(shoppingCart));
+  }
+};
+
 const getShoppingCart = () => {
   let shoppingCart = {};
 
@@ -35,4 +45,10 @@ const deleteShoppingCart = () => {
   localStorage.removeItem("shopping-cart");
 };
 
-export { addToDb, deleteShoppingCart, getShoppingCart, removeFromDb };
+export {
+  addToDb,
+  decreaseQuantity,
+  deleteShoppingCart,
+  getShoppingCart,
+  removeFromDb,
+};
