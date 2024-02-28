@@ -31,7 +31,7 @@ const Products = () => {
   };
 
   return (
-    <section className="bg-[#f4f6f8] lg:w-3/5">
+    <section className="bg-[#f4f6f8] lg:w-[55%]">
       {/* search product */}
       <Search />
       {/* render product card grid */}

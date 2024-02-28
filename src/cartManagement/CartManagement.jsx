@@ -1,9 +1,10 @@
 import { useContext } from "react";
 import toast from "react-hot-toast";
 import { CartContext } from "../App";
-import { removeFromDb } from "../utils/FakeDB";
+import { deleteShoppingCart, removeFromDb } from "../utils/FakeDB";
 import CartCalculation from "./CartCalculation";
 import CartTable from "./CartTable";
+import Checkout from "./Checkout";
 import Profile from "./Profile";
 import TopMenu from "./TopMenu";
 
@@ -19,8 +20,17 @@ const CartManagement = () => {
     toast.error("Item Removed");
   };
 
+  // clear all item form local storage
+  const handleClearCart = () => {
+    if (carts?.length > 0) {
+      setCarts([]);
+      deleteShoppingCart();
+      toast.error("Removed All Item");
+    }
+  };
+
   return (
-    <section className="space-y-3 border-r border-gray-300 px-2 lg:w-2/5 lg:px-4">
+    <section className="space-y-3 border-r border-gray-300 px-2 lg:w-[45%] lg:px-4">
       {/* left side top menu bar */}
       <TopMenu />
       {/* left side profile and added customer */}
@@ -55,7 +65,7 @@ const CartManagement = () => {
       {/* cart calculation part */}
       <CartCalculation carts={carts} />
       {/* checkout part */}
-      {/* <Checkout /> */}
+      <Checkout clearCart={handleClearCart} />
     </section>
   );
 };
