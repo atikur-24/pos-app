@@ -48,7 +48,7 @@ const Products = () => {
       <Search onSearch={handleSearch} />
       <Category />
       {/* render product card grid */}
-      <div className="mx-2 grid grid-cols-2 gap-1 pt-2 md:grid-cols-3 md:gap-2 lg:mx-4 lg:grid-cols-4 lg:gap-3 lg:pt-4 xl:grid-cols-5">
+      <div className="mx-2 grid grid-cols-3 gap-2 pt-2 md:grid-cols-4 md:gap-2 lg:mx-4 lg:gap-3 lg:pt-4 xl:grid-cols-5">
         {searchedProducts?.map((product) => (
           <ProductCard
             key={product.id}
