@@ -27,7 +27,7 @@ const CartCalculation = ({ carts, discount }) => {
 
   return (
     <div className="pt-2 text-sm text-gray-500 lg:pt-4">
-      <div className="ml-auto w-1/2 divide-y-2 divide-gray-200">
+      <div className="ml-auto w-1/2 divide-y-2 divide-gray-200 font-medium">
         <div className="flex justify-between border-t-2 border-gray-200 py-1">
           <span className="mr-10 lg:mr-20">Sub Total</span>
           <span className="text-base font-medium text-gray-600">
@@ -47,7 +47,9 @@ const CartCalculation = ({ carts, discount }) => {
           </span>
         </div>
         <div className="flex justify-between py-1">
-          <span className="mr-10 lg:mr-20">Discount On Cart</span>
+          <span className="mr-10 text-[#3674D9] lg:mr-20">
+            Discount On Cart
+          </span>
           <span className="text-base font-medium text-gray-600">
             ${discount}
           </span>

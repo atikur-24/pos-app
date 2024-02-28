@@ -12,26 +12,26 @@ const Checkout = ({ clearCart, setDiscount }) => {
   };
 
   return (
-    <div className="flex items-center justify-between space-x-2 pb-4">
+    <div className="flex items-center justify-between space-x-2 pb-4 text-sm md:text-lg">
       <button
         onClick={clearCart}
-        className="flex items-center gap-2 rounded bg-[#FADEDD] px-4 py-2 text-lg font-semibold text-[#EA7F7B]"
+        className="flex items-center gap-2 rounded bg-[#FADEDD] px-3 py-2  font-semibold text-[#EA7F7B] md:px-4"
       >
         <RxCrossCircled />
         <span>Cancel</span>
       </button>
-      <button className="flex items-center gap-2 rounded bg-[#E7E9F6] px-4 py-2 text-lg font-semibold text-[#5C6AC4]">
+      <button className="flex items-center gap-2 rounded bg-[#E7E9F6] px-3 py-2 font-semibold text-[#5C6AC4] md:px-4">
         <FaRegHandRock />
         Hold
       </button>
       <button
         onClick={handleDiscountModal}
-        className="flex items-center gap-2 rounded bg-[#E7E9F6] px-4 py-2 text-lg font-semibold text-[#5C6AC4]"
+        className="flex items-center gap-2 rounded bg-[#E7E9F6] px-3 py-2 font-semibold text-[#5C6AC4] md:px-4"
       >
         <BiSolidOffer />
         <span>Discount</span>
       </button>
-      <button className="flex items-center gap-2 rounded bg-[#D7E3F7] px-4 py-2 text-lg font-semibold text-[#3674D9]">
+      <button className="flex items-center gap-2 rounded bg-[#D7E3F7] px-3 py-2 font-semibold text-[#3674D9] md:px-4">
         <FaRegCreditCard />
         <span>Pay Now</span>
       </button>
