@@ -8,9 +8,11 @@
 - Each product showing the information, like user image, name etc.
 - When user click on the the product then product add to cart.
 - Implement a search functionality by product name.
-- Cart item quantity increase or decrease
-- Delete Item from cart or clear all item form cart
-- Update realtime calculation base on cart item amount
+- Cart item quantity increase or decrease.
+- Delete Item from cart or clear all item form cart.
+- Update realtime calculation base on cart item amount.
+- Update realtime product quantity when click plus or minus button.
+- Using Local storage just for save product id and quantity.
 - I will try design looking eye catching.
 - In this app fully responsive for mobile, tablet and desktop devices.
 

@@ -7,33 +7,22 @@
     "shipping": 10,
     "tax": 6.5,
     "stock": 50,
-    "category": "clothes",
+    "category": "men fashion",
     "desc": "This product also good"
   },
   {
-    "id": "asdf1dh7",
-    "name": "Gray T-shirt",
-    "image": "products/menshirt-2.jpg",
-    "price": 90,
-    "shipping": 15,
-    "tax": 6.56,
-    "stock": 20,
-    "category": "clothes",
-    "desc": "This product also good"
-  },
-  {
-    "id": "asdf1dt1",
+    "id": "psdf1dt1",
     "name": "Woman Korean Thick Autumn",
     "image": "products/menshirt-3.webp",
     "price": 45,
     "shipping": 17,
     "tax": 2.25,
     "stock": 20,
-    "category": "clothes",
+    "category": "women fashion",
     "desc": "This product also good"
   },
   {
-    "id": "asdf1dq6",
+    "id": "zsdf1dq6",
     "name": "LED Watch",
     "image": "products/watch-1.jpg",
     "price": 85,
@@ -44,47 +33,136 @@
     "desc": "This product also good"
   },
   {
-    "id": "asdf1dw4",
+    "id": "liaksd33",
+    "name": "iPhone 14 Pro Max",
+    "image": "products/phone-2.webp",
+    "price": 90,
+    "shipping": 18,
+    "tax": 8.75,
+    "stock": 20,
+    "category": "electronics",
+    "desc": "This product also good"
+  },
+  {
+    "id": "wodf1dw4",
     "name": "Apple Watch Series 4",
     "image": "products/watch-2.jpg",
     "price": 62,
     "shipping": 14,
     "tax": 5.85,
     "stock": 40,
-    "category": "watch",
+    "category": "electronics",
     "desc": "This product also good"
   },
   {
-    "id": "asdf1de8",
+    "id": "opdf1de8",
     "name": "Women Solid Short Hoodie",
     "image": "products/womencls-1.webp",
     "price": 60,
     "shipping": 20,
     "tax": 6.36,
     "stock": 50,
-    "category": "clothes",
+    "category": "women fashion",
     "desc": "This product also good"
   },
   {
-    "id": "asdf1dv2",
+    "id": "kqdf1dv2",
     "name": "iPhone 11 pro",
     "image": "products/phone-1.jpg",
     "price": 95,
     "shipping": 24,
     "tax": 9.25,
     "stock": 20,
-    "category": "clothes",
+    "category": "electronics",
     "desc": "This product also good"
   },
   {
-    "id": "asdf1as36",
+    "id": "qkdf1as36",
     "name": "Red T-Shirt Print Men",
     "image": "products/babay-tshirt.webp",
     "price": 70,
     "shipping": 12,
     "tax": 3,
     "stock": 20,
-    "category": "clothes",
+    "category": "men fashion",
+    "desc": "This product also good"
+  },
+  {
+    "id": "jdfhas99",
+    "name": "Havit Alarm Clock",
+    "image": "products/digital-watch.jpg",
+    "price": 30,
+    "shipping": 7,
+    "tax": 2.94,
+    "stock": 20,
+    "category": "home & lifestyle",
+    "desc": "This product also good"
+  },
+  {
+    "id": "alsdfj88",
+    "name": "Coffee Maker",
+    "image": "products/machine-1.jpg",
+    "price": 65,
+    "shipping": 12,
+    "tax": 6.35,
+    "stock": 20,
+    "category": "electronics",
+    "desc": "This product also good"
+  },
+  {
+    "id": "kajhsf75",
+    "name": "Chiffon Solid Pure Soft",
+    "image": "products/baby-cls-2.webp",
+    "price": 35,
+    "shipping": 10,
+    "tax": 2,
+    "stock": 20,
+    "category": "women fashion",
+    "desc": "This product also good"
+  },
+  {
+    "id": "baksdf24",
+    "name": "Blender",
+    "image": "products/machine-2.jpg",
+    "price": 85,
+    "shipping": 20,
+    "tax": 8.56,
+    "stock": 20,
+    "category": "electronics",
+    "desc": "This product also good"
+  },
+  {
+    "id": "ciakasd33",
+    "name": "Boys Casual Classic Shirts",
+    "image": "products/t-shirt-3.webp",
+    "price": 60,
+    "shipping": 14,
+    "tax": 4.46,
+    "stock": 20,
+    "category": "men fashion",
+    "desc": "This product also good"
+  },
+
+  {
+    "id": "irasdk30",
+    "name": "Men Wallet",
+    "image": "products/wallet.jpg",
+    "price": 80,
+    "shipping": 26,
+    "tax": 3.45,
+    "stock": 20,
+    "category": "men fashion",
+    "desc": "This product also good"
+  },
+  {
+    "id": "hsdf1dh7",
+    "name": "Gray T-shirt",
+    "image": "products/menshirt-2.jpg",
+    "price": 90,
+    "shipping": 15,
+    "tax": 6.56,
+    "stock": 20,
+    "category": "men fashion",
     "desc": "This product also good"
   }
 ]
