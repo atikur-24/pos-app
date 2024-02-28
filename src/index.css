@@ -2,46 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-/* #84919C
-#69696A */
-
 @layer base {
-    html {
-        font-family: "Inter", sans-serif;
-    }
+  html {
+    font-family: "Inter", sans-serif;
+  }
 }
 
 @layer components {
-    /* custom containers */
-    .my-container {
-        @apply container mx-auto px-8 md:px-12 lg:px-6;
-    }
-    /* button style */
-    .add-btn {
-        @apply cursor-pointer rounded-md bg-deep-green px-3 py-2 text-sm font-medium uppercase tracking-wide text-white transition-all hover:opacity-90 lg:px-4 lg:py-2.5 lg:text-base lg:font-semibold;
-    }
+  /* custom containers */
+  .my-container {
+    @apply container mx-auto px-8 md:px-12 lg:px-6;
+  }
+  /* button style */
+  .submit-btn {
+    @apply cursor-pointer rounded bg-sky-500 px-2 py-1.5 text-xs font-medium capitalize tracking-wide text-white transition-all hover:bg-sky-600 lg:px-3 lg:py-2 lg:text-sm lg:font-semibold;
+  }
+  .close-btn {
+    @apply cursor-pointer rounded bg-red-500 px-2 py-1.5 text-xs font-medium capitalize tracking-wide text-white transition-all hover:bg-red-600 lg:px-3 lg:py-2 lg:text-sm lg:font-semibold;
+  }
 }
 
 @layer utilities {
-    .active {
-        @apply text-white transition-all duration-200 hover:text-white hover:opacity-100;
-    }
+  .active {
+    @apply text-white transition-all duration-200 hover:text-white hover:opacity-100;
+  }
 
-    .default {
-        @apply opacity-70 transition-all duration-200 hover:text-white hover:opacity-100;
-    }
+  .default {
+    @apply opacity-70 transition-all duration-200 hover:text-white hover:opacity-100;
+  }
 }
 
 /* Remove increment and decrement arrows from number input */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
-/* clears the 'X' from Chrome */
-/* input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-    display: none;
-} */

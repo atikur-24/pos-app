@@ -1,4 +1,4 @@
-const CartCalculation = ({ carts }) => {
+const CartCalculation = ({ carts, discount }) => {
   let subTotal = 0;
   let taxTotal = 0;
   let shippingTotal = 0;
@@ -23,7 +23,7 @@ const CartCalculation = ({ carts }) => {
   }
 
   // net total amount
-  const netTotal = subTotal + taxTotal + shippingTotal;
+  const netTotal = subTotal + taxTotal + shippingTotal - discount;
 
   return (
     <div className="pt-2 text-sm text-gray-500 lg:pt-4">
@@ -46,11 +46,11 @@ const CartCalculation = ({ carts }) => {
             ${shippingTotal.toFixed(2)}
           </span>
         </div>
-        <div>
+        <div className="flex justify-between py-1">
           <span className="mr-10 lg:mr-20">Discount On Cart</span>
-          {/* <span className="text-base font-medium text-gray-600">
-          ${discount.toFixed(2)}
-        </span> */}
+          <span className="text-base font-medium text-gray-600">
+            ${discount}
+          </span>
         </div>
       </div>
       <div className="mt-2 flex items-center justify-between rounded bg-[#E1EAF9] px-2 py-2 text-[#3674D9] lg:py-2.5">

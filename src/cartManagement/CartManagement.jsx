@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import toast from "react-hot-toast";
 import { CartContext } from "../App";
 import { deleteShoppingCart, removeFromDb } from "../utils/FakeDB";
@@ -11,6 +11,8 @@ import TopMenu from "./TopMenu";
 const CartManagement = () => {
   // get all carts
   const [carts, setCarts] = useContext(CartContext || []);
+
+  const [discount, setDiscount] = useState(0);
 
   // item removed to shopping cart using local storage
   const handleRemoveToCart = (id) => {
@@ -63,9 +65,9 @@ const CartManagement = () => {
       </div>
 
       {/* cart calculation part */}
-      <CartCalculation carts={carts} />
+      <CartCalculation carts={carts} discount={discount} />
       {/* checkout part */}
-      <Checkout clearCart={handleClearCart} />
+      <Checkout clearCart={handleClearCart} setDiscount={setDiscount} />
     </section>
   );
 };
