@@ -1,7 +1,11 @@
+import CartManagement from "./cartManagement/CartManagement";
+import Products from "./products/Products";
+
 const App = () => {
     return (
-        <div>
-            <p>App</p>
+        <div className="lg:flex">
+            <CartManagement />
+            <Products />
         </div>
     );
 };

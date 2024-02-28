@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Pure White Polo",
+        "image": "/src/assets/products/menshirt-1.jpg",
+        "price": 70,
+        "discount": 0,
+        "category": "clothes",
+        "desc": "This product also good"
+    },
+    {
+        "id": 2,
+        "name": "Pure White Polo",
+        "image": "/src/assets/products/menshirt-2.jpg",
+        "price": 70,
+        "discount": 0,
+        "category": "clothes",
+        "desc": "This product also good"
+    },
+    {
+        "id": 3,
+        "name": "Pure White Polo",
+        "image": "/src/assets/products/menshirt-3.webp",
+        "price": 70,
+        "discount": 0,
+        "category": "clothes",
+        "desc": "This product also good"
+    },
+    {
+        "id": 4,
+        "name": "Pure White Polo",
+        "image": "/src/assets/products/watch-1.jpg",
+        "price": 70,
+        "discount": 0,
+        "category": "clothes",
+        "desc": "This product also good"
+    },
+    {
+        "id": 5,
+        "name": "Pure White Polo",
+        "image": "/src/assets/products/watch-2.jpg",
+        "price": 70,
+        "discount": 0,
+        "category": "clothes",
+        "desc": "This product also good"
+    },
+    {
+        "id": 6,
+        "name": "Pure White Polo",
+        "image": "/src/assets/products/womencls-1.webp",
+        "price": 70,
+        "discount": 0,
+        "category": "clothes",
+        "desc": "This product also good"
+    },
+    {
+        "id": 7,
+        "name": "Pure White Polo",
+        "image": "/src/assets/products/phone-1.jpg",
+        "price": 70,
+        "discount": 0,
+        "category": "clothes",
+        "desc": "This product also good"
+    }
+]
