@@ -4,7 +4,7 @@ import { LuPenSquare, LuTruck } from "react-icons/lu";
 
 const TopMenu = () => {
   return (
-    <div className="flex items-center justify-between gap-x-1 text-sm font-medium text-[#5C6AC4] lg:text-base">
+    <div className="flex items-center justify-between gap-x-1 pt-3 text-sm font-medium text-[#5C6AC4] lg:text-base">
       <div>
         <FaBars className="cursor-pointer text-xl text-gray-500" />
       </div>
