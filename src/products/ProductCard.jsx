@@ -1,19 +1,11 @@
-import toast from "react-hot-toast";
 import { PiWarningOctagonBold } from "react-icons/pi";
-import { addToDb } from "../utils/FakeDB";
 
-const ProductCard = ({ product }) => {
-  const { id, name, image, price, stock } = product || {};
-
-  //   item add to shopping cart using local storage
-  const handleAddToCart = (id) => {
-    addToDb(id);
-    toast.success("Item Added To Cart");
-  };
+const ProductCard = ({ product, updateCart }) => {
+  const { name, image, price, stock } = product || {};
 
   return (
     <div
-      onClick={() => handleAddToCart(id)}
+      onClick={() => updateCart(product)}
       className="pointer-events-auto relative flex w-full cursor-pointer flex-col rounded border border-gray-300 text-[13px] text-gray-500 transition-all active:opacity-70"
     >
       <div className="h-[145px] transition-all 2xl:h-[164px]">

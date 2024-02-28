@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import CartManagement from "./cartManagement/CartManagement";
 import Products from "./products/Products";
@@ -9,11 +9,12 @@ export const CartContext = createContext([]);
 
 const App = () => {
   // load all products and cart data
-  const { products, carts } = useLoaderData();
+  const { products, cartArray } = useLoaderData();
+  const [carts, setCarts] = useState(cartArray);
 
   return (
     <ProductContext.Provider value={products}>
-      <CartContext.Provider value={carts}>
+      <CartContext.Provider value={[carts, setCarts]}>
         <div className="flex flex-col lg:flex-row">
           <CartManagement />
           <Products />
