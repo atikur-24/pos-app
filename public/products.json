@@ -5,9 +5,11 @@
     "image": "/src/assets/products/menshirt-1.jpg",
     "price": 70,
     "discount": 0,
+    "shipping": 10,
+    "tax": 10.25,
+    "stock": 50,
     "category": "clothes",
-    "desc": "This product also good",
-    "quantity": 10
+    "desc": "This product also good"
   },
   {
     "id": "asdf1dh7",
@@ -15,9 +17,11 @@
     "image": "/src/assets/products/menshirt-2.jpg",
     "price": 70,
     "discount": 0,
+    "shipping": 10,
+    "tax": 10.25,
+    "stock": 50,
     "category": "clothes",
-    "desc": "This product also good",
-    "quantity": 10
+    "desc": "This product also good"
   },
   {
     "id": "asdf1dt1",
@@ -25,9 +29,11 @@
     "image": "/src/assets/products/menshirt-3.webp",
     "price": 70,
     "discount": 0,
+    "shipping": 10,
+    "tax": 10.25,
+    "stock": 0,
     "category": "clothes",
-    "desc": "This product also good",
-    "quantity": 0
+    "desc": "This product also good"
   },
   {
     "id": "asdf1dq6",
@@ -35,9 +41,11 @@
     "image": "/src/assets/products/watch-1.jpg",
     "price": 70,
     "discount": 0,
+    "shipping": 10,
+    "tax": 10.25,
+    "stock": 50,
     "category": "clothes",
-    "desc": "This product also good",
-    "quantity": 10
+    "desc": "This product also good"
   },
   {
     "id": "asdf1dw4",
@@ -45,9 +53,11 @@
     "image": "/src/assets/products/watch-2.jpg",
     "price": 70,
     "discount": 0,
+    "shipping": 10,
+    "tax": 10.25,
+    "stock": 50,
     "category": "clothes",
-    "desc": "This product also good",
-    "quantity": 10
+    "desc": "This product also good"
   },
   {
     "id": "asdf1de8",
@@ -55,9 +65,11 @@
     "image": "/src/assets/products/womencls-1.webp",
     "price": 70,
     "discount": 0,
+    "shipping": 10,
+    "tax": 10.25,
+    "stock": 50,
     "category": "clothes",
-    "desc": "This product also good",
-    "quantity": 10
+    "desc": "This product also good"
   },
   {
     "id": "asdf1dv2",
@@ -65,8 +77,10 @@
     "image": "/src/assets/products/phone-1.jpg",
     "price": 70,
     "discount": 0,
+    "shipping": 10,
+    "tax": 10.25,
+    "stock": 50,
     "category": "clothes",
-    "desc": "This product also good",
-    "quantity": 10
+    "desc": "This product also good"
   }
 ]

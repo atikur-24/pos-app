@@ -3,7 +3,7 @@ import { PiWarningOctagonBold } from "react-icons/pi";
 import { addToDb } from "../utils/FakeDB";
 
 const ProductCard = ({ product }) => {
-  const { id, name, image, price, quantity } = product || {};
+  const { id, name, image, price, stock } = product || {};
 
   //   item add to shopping cart using local storage
   const handleAddToCart = (id) => {
@@ -19,7 +19,7 @@ const ProductCard = ({ product }) => {
       <div className="h-[145px] transition-all 2xl:h-[164px]">
         <img className="h-full w-full object-contain" src={image} alt={name} />
       </div>
-      {quantity === 0 && (
+      {stock === 0 && (
         <PiWarningOctagonBold className="absolute right-2 top-2 text-base text-red-600/90" />
       )}
       <div className="py-1 text-center md:py-1.5">

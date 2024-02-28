@@ -8,6 +8,7 @@ export const ProductContext = createContext([]);
 export const CartContext = createContext([]);
 
 const App = () => {
+  // load all products and cart data
   const { products, carts } = useLoaderData();
 
   return (
